@@ -1,0 +1,107 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+}
+
+.section {
+    height: 500px;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("images/torshov.jpg");
+    background-size: cover; 
+    background-position: center;
+}
+
+#hero-title {
+    height: 40px;
+    margin-top: 0;
+    color: white;
+    border-radius: 10px;
+    width: 210px;
+    background-color: #1D3557; 
+    padding-top: 2px;
+}
+
+#hero-description {
+    height: 60px;
+    margin: 0;
+    color: white;
+    border-radius: 10px;
+    width: 450px;
+    background-color: #457B9D;
+    padding-top: 5px;
+}
+
+#top-3 {
+    margin: 0 0 40px;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.activity {
+    margin: 0 20px;
+}
+
+#activity {
+    background-color: #F1FAEE;
+}
+
+.activity-img {
+    border-radius: 150px;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 50px;
+    padding-top: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#guide-p {
+    font-style: italic;
+}
+
+#guide-img {
+    width: 250px;
+    margin-right: 15px;
+}
+
+#guide {
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8DADC;
+    border-radius: 20px;
+    border-bottom: 5px solid #1D3557;
+}
+
+#guide-center {
+    display: inline;
+    margin: 0 30px;
+}
