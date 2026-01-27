@@ -80,6 +80,10 @@ img {
     width: 350px;
 }
 
+.activity:hover {
+    transform: scale(1.2);
+}
+
 .activity-img {
     border-radius: 100px
 }
@@ -98,6 +102,11 @@ img {
     padding: 20px;
     width: 500px;
     height: 250px;
+}
+
+#guide-box:hover {
+    background-color: #81b9bb;
+    border-bottom: 10px solid #204880;
 }
 
 #guide-img {
